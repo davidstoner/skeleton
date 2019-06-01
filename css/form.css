@@ -1,0 +1,66 @@
+form {
+  border-top: 1px solid #000;
+}
+
+fieldset {
+  padding: 2.25rem 0 0.75rem;
+  border-top: 1px solid #00000011;
+}
+
+fieldset:first-child {
+  border-top: none;
+}
+
+fieldset h1,
+fieldset h2,
+fieldset h3,
+fieldset h4 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.5rem;
+}
+
+input {
+  margin: 0 0 1.5rem;
+  padding: 0.75rem;
+  display: block;
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+label + input {
+  margin-top: -0.75rem;
+}
+
+label input {
+  margin-top: 0.75rem;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  margin: 0 1rem 0 0;
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+input[type=submit] {
+  padding: 1.5rem;
+}
+
+/* Components */
+ul.form {
+  margin: 0 0 1.5rem;
+}
+
+label + ul.form {
+  margin-top: -0.75rem 0 1.5rem;
+}
+
+ul.form label {
+  margin: 0 0 0.75rem;
+}

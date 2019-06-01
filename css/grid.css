@@ -1,0 +1,17 @@
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--halves > * {
+  flex: 0 0 50%;
+}
+
+.flex--thirds > * {
+  flex: 0 0 33.33%;
+}
